@@ -20,6 +20,7 @@ public class SayDigit {
         System.out.println("enter the number");
         int num = sc.nextInt();
         Saydigit(num);
+        sc.close();
 
     }
 }

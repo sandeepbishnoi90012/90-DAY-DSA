@@ -20,5 +20,6 @@ public class Q2 {
         int N  = sc.nextInt();
         int ans = PowerFun(X, N);
         System.out.println(ans);
+        sc.close();
     }
 }

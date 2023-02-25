@@ -12,12 +12,13 @@ public class FebonachhiByRecursion {
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("enter total febbonachhi number");
-        int num = sc.nextInt();
-        System.out.println(0);
-        System.out.println(1);
-        PrintFebonachhi(0, 1, num - 2);
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("enter total febbonachhi number");
+            int num = sc.nextInt();
+            System.out.println(0);
+            System.out.println(1);
+            PrintFebonachhi(0, 1, num - 2);
+        }
 
     }
 }
