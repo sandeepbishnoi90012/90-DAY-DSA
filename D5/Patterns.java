@@ -13,7 +13,7 @@ public class Patterns {
         // }
 
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
+        // int n = sc.nextInt();
         sc.close();
         // int i=0;
         // while(i<n){
@@ -228,7 +228,7 @@ public class Patterns {
         // i++;
         // }
 
-        int temp = 1;
+        // int temp = 1;
         // for (int i = 0; i < n; i++) {
         // for (int j = 1; j < n - i; j++) {
         // System.out.print(" ");
